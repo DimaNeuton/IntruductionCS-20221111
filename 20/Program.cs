@@ -5,7 +5,7 @@
 class Program
 {
 
-int Part(double x, double y)
+static int Part(double x, double y)
 {
     //тело подпрограммы
     if (x>0 && y>0) return 1;
@@ -40,8 +40,6 @@ static void Main()
         double y=Convert.ToDouble(Console.ReadLine());
         int p=Part(x,y);
         System.Console.WriteLine("Part"+p);
-        Program program=new Program();
-        program.Pause("Нажмите любую клавишу");
-
+        Pause("Нажмите любую клавишу");
     }
 }
