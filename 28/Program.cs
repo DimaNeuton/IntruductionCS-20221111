@@ -3,7 +3,7 @@
 //Подпрограмма
 int CountDigits(int Number)
 {
-    N=Math.Abs(Number);
+    int N=Math.Abs(Number);
     int count=0;
     if (Number==0) count=1;
     while (Number>0)
@@ -13,6 +13,7 @@ int CountDigits(int Number)
     }
     return count;
 }
+
 
 //Основной программой
 int N=Convert.ToInt32(Console.ReadLine());
