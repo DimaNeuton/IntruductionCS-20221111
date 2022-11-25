@@ -32,3 +32,5 @@ int QuickGCD(int a, int b)
     }
     return a+b;
 }
+System.Console.WriteLine(QuickGCD(15, 20));
+System.Console.WriteLine(k);
