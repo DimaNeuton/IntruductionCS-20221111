@@ -8,7 +8,7 @@
 затем для каждого ученика вводится количество правильно решенных
 примеров
 */
-
+ 
 System.Console.WriteLine("Введите количество учеников: ");
 int N=Convert.ToInt32(Console.ReadLine());
 int k=0;
