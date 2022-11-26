@@ -10,8 +10,6 @@ int переменная1=0;
 
 //1. С клавиатуры вводится целое число. Вывести квадрат числа (блок-схема)
 
-Console.Clear();
-
 int a;
 System.Console.Write("Введи число: ");
 string? s=Console.ReadLine();
