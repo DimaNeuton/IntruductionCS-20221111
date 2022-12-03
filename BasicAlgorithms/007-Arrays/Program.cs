@@ -13,7 +13,6 @@
 // System.Console.WriteLine(s);
 
 // массивы это объекты
-int N = 7;
 int[] t; //null. не присвоено
 t = new int[7]; // создаем массив, то есть t помещаем в адрес массива
 double s = 0;
