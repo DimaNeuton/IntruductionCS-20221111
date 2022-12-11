@@ -11,12 +11,12 @@ int[] RandomIntArray(int size, int min, int max)
 }
 */
 
-void RandomIntArray(out int[] a, int size, int min, int max)
+void RandomIntArray(out int[] a, int size)
 {
     a = new int[size];
     Random random = new Random();
     for (int i=0; i < size; i++)
-        a[i] = random.Next(min, max);
+        a[i] = random.Next(1, 10);
 }
 
 void Print(int[] a)
@@ -26,5 +26,5 @@ void Print(int[] a)
 }
 
 int[] m;
-RandomIntArray(out m, max:110, size:20, min:0);
+RandomIntArray(out m, 20);
 Print(m);

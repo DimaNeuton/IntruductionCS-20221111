@@ -26,7 +26,7 @@ int DetectNumber(int[] array, int number)
     int i = 0;
     while (i < array.Length)
     {
-        if (array[i] == digit) return 1;
+        if (array[i] == number) return 1;
         i++;
     }
     return -1;
@@ -40,7 +40,7 @@ int temp;
 RandomArray(out array, size, min, max);
 PrintArray(array);
 System.Console.WriteLine();
-System.Console.WriteLine($"Write digit from {min} to {max-1}: ");
+System.Console.WriteLine($"Write number from {min} to {max-1}: ");
 
 // Ввод числа с клавиатуры
 int number = Convert.ToInt32(Console.ReadLine());
