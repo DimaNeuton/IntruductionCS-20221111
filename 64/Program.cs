@@ -42,3 +42,20 @@ Print2DArray(a);
 System.Console.WriteLine();
 int[,] b = ChangedArray(a);
 Print2DArray(b);
+
+// double[,] ChangedArray(int[,] a)
+// {
+//     for (int i = 2; i < a.GetLength(0); i+=2)
+//     {
+//         for (int j = 2; j < a.GetLength(1); j+=2)
+//         {
+//             a[i,j] = Math.Pow(a[i,j], 2);
+//         }
+//     }
+//     return a;
+// }
+// int[,] a = Random2DArray(5,5);
+// Print2DArray(a);
+// System.Console.WriteLine();
+// double[,] b = ChangedArray(a);
+// Print2DArray(b);
